@@ -1,0 +1,194 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/asus/Downloads/trunk/trunk/trunk/sim
+vCU
+!s110 1672418064
+!i10b 1
+!s100 ghH59dE533:gPTEaml7Il2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;GOz^8o5eh<1Y3?5XH:7L0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1672418053
+8../src/hdl/CU.v
+F../src/hdl/CU.v
+!i122 24
+L0 1 71
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1672418064.000000
+!s107 ../src/hdl/CU.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/CU.v|
+!i113 1
+Z4 o+acc -source
+Z5 !s92 +acc -source +define+SIM
+Z6 tCvgOpt 0
+n@c@u
+vDP
+Z7 !s10a 1672414819
+Z8 !s110 1672414043
+!i10b 1
+!s100 hhclO50WBon38_JKGoHWz0
+R1
+Ie8OSB]:EgU<MmVII]jTeZ3
+R2
+R0
+Z9 w1672414035
+Z10 8../src/hdl/DP.v
+Z11 F../src/hdl/DP.v
+!i122 16
+L0 43 11
+R3
+r1
+!s85 0
+31
+Z12 !s108 1672414043.000000
+Z13 !s107 ../src/hdl/DP.v|
+Z14 !s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/DP.v|
+!i113 1
+R4
+R5
+R6
+n@d@p
+vMapper
+R7
+R8
+!i10b 1
+!s100 9Cg2aCg_FBfHREJn3>D:=2
+R1
+Iim:<Fn7F^KDgaK1@I00G>0
+R2
+R0
+R9
+R10
+R11
+!i122 16
+L0 26 16
+R3
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 1
+R4
+R5
+R6
+n@mapper
+vMultiplexer25bit2to1
+R7
+!s110 1672409064
+!i10b 1
+!s100 b==aOH=7A>nYKkoY3QKZk2
+R1
+IWz9Kc9ZDLeUBZGkRg_R782
+R2
+R0
+w1672407879
+R10
+R11
+!i122 0
+L0 1 7
+R3
+r1
+!s85 0
+31
+!s108 1672409063.000000
+R13
+R14
+!i113 1
+R4
+R5
+R6
+n@multiplexer25bit2to1
+vPermutation
+!s10a 1672415523
+!s110 1672416801
+!i10b 1
+!s100 aoX7QionkH<Jfjz0l4FE00
+R1
+I87mTB:7Z_D[j`Ve_SQ6am0
+R2
+R0
+w1672415523
+8../src/hdl/Permutation.v
+F../src/hdl/Permutation.v
+!i122 20
+L0 1 11
+R3
+r1
+!s85 0
+31
+!s108 1672416801.000000
+!s107 ../src/hdl/Permutation.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/Permutation.v|
+!i113 1
+R4
+R5
+R6
+n@permutation
+vRegister
+R7
+!s110 1672413991
+!i10b 1
+!s100 ZPCVOi<1l4cYl>WA>L6To1
+R1
+IUbF:8zjbHU^n@GGRhC0J31
+R2
+R0
+w1672413946
+R10
+R11
+!i122 15
+L0 9 16
+R3
+r1
+!s85 0
+31
+!s108 1672413991.000000
+R13
+R14
+!i113 1
+R4
+R5
+R6
+n@register
+vTB
+!s10a 1672417820
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1672417828
+!i10b 1
+!s100 VPgf4gOQo;6_]2ezO2IYM2
+R1
+Ic8OaP1d<TgM]b@z4]?D381
+R2
+S1
+R0
+w1672417820
+8./tb/TB.sv
+F./tb/TB.sv
+!i122 23
+L0 3 38
+R3
+r1
+!s85 0
+31
+!s108 1672417828.000000
+!s107 ./tb/TB.sv|
+!s90 -reportprogress|300|+acc|-incr|-source|+incdir+../src/inc|+define+SIM|./tb/TB.sv|
+!i113 1
+R4
+!s92 +acc -source +incdir+../src/inc +define+SIM
+R6
+n@t@b
